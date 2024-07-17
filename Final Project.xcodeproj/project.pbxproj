@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3B22CAFA2C48375C0076AC91 /* ZenLoop-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B22CAF92C48375C0076AC91 /* ZenLoop-Regular.ttf */; };
 		3B22CAFD2C48515F0076AC91 /* Pink Tax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B22CAFC2C48515F0076AC91 /* Pink Tax.swift */; };
+		3B22CAFF2C485B7C0076AC91 /* Italiana-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B22CAFE2C485B7C0076AC91 /* Italiana-Regular.ttf */; };
 		3B71A12E2C47110500428FCE /* periodHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B71A12D2C47110500428FCE /* periodHome.swift */; };
 		3BA7BB422C41C2BA00246973 /* Final_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA7BB412C41C2BA00246973 /* Final_ProjectApp.swift */; };
 		3BA7BB442C41C2BA00246973 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA7BB432C41C2BA00246973 /* ContentView.swift */; };
@@ -40,6 +41,7 @@
 		3B22CAF92C48375C0076AC91 /* ZenLoop-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZenLoop-Regular.ttf"; sourceTree = "<group>"; };
 		3B22CAFB2C48387B0076AC91 /* Final-Project-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Final-Project-Info.plist"; sourceTree = SOURCE_ROOT; };
 		3B22CAFC2C48515F0076AC91 /* Pink Tax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pink Tax.swift"; sourceTree = "<group>"; };
+		3B22CAFE2C485B7C0076AC91 /* Italiana-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Italiana-Regular.ttf"; sourceTree = "<group>"; };
 		3B71A12D2C47110500428FCE /* periodHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = periodHome.swift; sourceTree = "<group>"; };
 		3BA7BB3E2C41C2BA00246973 /* Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA7BB412C41C2BA00246973 /* Final_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_ProjectApp.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		3B22CAF82C4837040076AC91 /* Font */ = {
 			isa = PBXGroup;
 			children = (
+				3B22CAFE2C485B7C0076AC91 /* Italiana-Regular.ttf */,
 				3B22CAF92C48375C0076AC91 /* ZenLoop-Regular.ttf */,
 			);
 			path = Font;
@@ -252,6 +255,7 @@
 			files = (
 				3BA7BB492C41C2BB00246973 /* Preview Assets.xcassets in Resources */,
 				3BA7BB462C41C2BB00246973 /* Assets.xcassets in Resources */,
+				3B22CAFF2C485B7C0076AC91 /* Italiana-Regular.ttf in Resources */,
 				3B22CAFA2C48375C0076AC91 /* ZenLoop-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
