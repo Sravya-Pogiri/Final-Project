@@ -18,7 +18,7 @@ struct periodHome: View {
                     
                     Spacer()
                         .frame(height: 85.0)
-                    NavigationLink(destination: periodHome()) {
+                    NavigationLink(destination: productsTab()) {
                         Text("Products")
                             .font(.custom("Italiana-Regular", size: 25))
                             .foregroundColor(.black)

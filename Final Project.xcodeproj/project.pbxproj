@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C5DE3C22C485E9C005B1C24 /* productsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5DE3C12C485E9C005B1C24 /* productsTab.swift */; };
+		0C5DE3C42C4862AD005B1C24 /* aboutPads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5DE3C32C4862AD005B1C24 /* aboutPads.swift */; };
+		0C5DE3C62C4862E1005B1C24 /* aboutTampons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5DE3C52C4862E1005B1C24 /* aboutTampons.swift */; };
+		0C5DE3C82C486331005B1C24 /* aboutCups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5DE3C72C486331005B1C24 /* aboutCups.swift */; };
+		0C5DE3CA2C486351005B1C24 /* aboutUndies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5DE3C92C486351005B1C24 /* aboutUndies.swift */; };
 		3B22CAFA2C48375C0076AC91 /* ZenLoop-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B22CAF92C48375C0076AC91 /* ZenLoop-Regular.ttf */; };
 		3B22CAFD2C48515F0076AC91 /* Pink Tax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B22CAFC2C48515F0076AC91 /* Pink Tax.swift */; };
 		3B22CAFF2C485B7C0076AC91 /* Italiana-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B22CAFE2C485B7C0076AC91 /* Italiana-Regular.ttf */; };
@@ -38,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C5DE3C12C485E9C005B1C24 /* productsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productsTab.swift; sourceTree = "<group>"; };
+		0C5DE3C32C4862AD005B1C24 /* aboutPads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutPads.swift; sourceTree = "<group>"; };
+		0C5DE3C52C4862E1005B1C24 /* aboutTampons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutTampons.swift; sourceTree = "<group>"; };
+		0C5DE3C72C486331005B1C24 /* aboutCups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutCups.swift; sourceTree = "<group>"; };
+		0C5DE3C92C486351005B1C24 /* aboutUndies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutUndies.swift; sourceTree = "<group>"; };
 		3B22CAF92C48375C0076AC91 /* ZenLoop-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZenLoop-Regular.ttf"; sourceTree = "<group>"; };
 		3B22CAFB2C48387B0076AC91 /* Final-Project-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Final-Project-Info.plist"; sourceTree = SOURCE_ROOT; };
 		3B22CAFC2C48515F0076AC91 /* Pink Tax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pink Tax.swift"; sourceTree = "<group>"; };
@@ -116,6 +126,11 @@
 				3B22CAF82C4837040076AC91 /* Font */,
 				3BA7BB412C41C2BA00246973 /* Final_ProjectApp.swift */,
 				3B71A12D2C47110500428FCE /* periodHome.swift */,
+				0C5DE3C12C485E9C005B1C24 /* productsTab.swift */,
+				0C5DE3C92C486351005B1C24 /* aboutUndies.swift */,
+				0C5DE3C72C486331005B1C24 /* aboutCups.swift */,
+				0C5DE3C52C4862E1005B1C24 /* aboutTampons.swift */,
+				0C5DE3C32C4862AD005B1C24 /* aboutPads.swift */,
 				3B22CAFC2C48515F0076AC91 /* Pink Tax.swift */,
 				3BA7BB432C41C2BA00246973 /* ContentView.swift */,
 				3BA7BB452C41C2BB00246973 /* Assets.xcassets */,
@@ -281,10 +296,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C5DE3C82C486331005B1C24 /* aboutCups.swift in Sources */,
 				3B22CAFD2C48515F0076AC91 /* Pink Tax.swift in Sources */,
+				0C5DE3C42C4862AD005B1C24 /* aboutPads.swift in Sources */,
+				0C5DE3C22C485E9C005B1C24 /* productsTab.swift in Sources */,
 				3BA7BB442C41C2BA00246973 /* ContentView.swift in Sources */,
 				3B71A12E2C47110500428FCE /* periodHome.swift in Sources */,
 				3BA7BB422C41C2BA00246973 /* Final_ProjectApp.swift in Sources */,
+				0C5DE3C62C4862E1005B1C24 /* aboutTampons.swift in Sources */,
+				0C5DE3CA2C486351005B1C24 /* aboutUndies.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
