@@ -16,6 +16,7 @@ struct aboutUndies: View {
                     .font(.custom("Italiana-Regular", size: 35))
                     .fontWeight(.bold)
                     .foregroundColor(Color.init(red: 255/255, green: 103/255, blue: 103/255))
+                    .multilineTextAlignment(.center)
                 
                 Spacer()
                     .frame(height: 35.0)
@@ -30,21 +31,21 @@ struct aboutUndies: View {
                     .font(.custom("Italiana-Regular", size: 17.0))
                         .fontWeight(.bold)
                         .foregroundColor(Color(.black))
-                        .padding(.horizontal, 10.0)
+                        .padding(.horizontal, 20.0)
                     Spacer()
                         .frame(height: 20.0)
                 Text(" While you don't need to wear a pad or panty liner with period underwear, you can still opt to wear a tampon or menstrual cup, depending on your flow. “Period underwear can be worn as an alternative or enhancement to tampons or menstrual cups,” she says.")
                     .font(.custom("Italiana-Regular", size: 17.0))
                         .fontWeight(.bold)
                         .foregroundColor(Color(.black))
-                        .padding(.horizontal, 10.0)
+                        .padding(.horizontal, 20.0)
                     Spacer()
                         .frame(height: 20.0)
                 Text(" Most period underwear will have instructions on how to clean them, so you won't have to worry about blood stains permanently on them.")
                     .font(.custom("Italiana-Regular", size: 17.0))
                         .fontWeight(.bold)
                         .foregroundColor(Color(.black))
-                        .padding(.horizontal, 10.0)
+                        .padding(.horizontal, 20.0)
             }
         }
     }

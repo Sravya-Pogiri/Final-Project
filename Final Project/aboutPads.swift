@@ -30,20 +30,20 @@ struct aboutPads: View {
                 Text(" Pads should be changed every 3–4 hours, even if you have a light flow. Regular changing prevents buildup of bacteria and stops odor. If you have a heavier flow, you might need to change pads more often to make sure you don't leak.").font(.custom("Italiana-Regular", size: 17.0))
                     .fontWeight(.bold)
                     .foregroundColor(Color(.black))
-                    .padding(.horizontal, 10.0)
+                    .padding(.horizontal, 20.0)
                 Spacer()
                     .frame(height: 20.0)
                 Text(" Most pads have a sticky strip along the bottom. You peel off the paper strip that covers the adhesive and press the pad into the crotch of your underwear. If the pad has wings, you wrap these around the bottom of the crotch.").font(.custom("Italiana-Regular", size: 17.0))
                     .fontWeight(.bold)
                     .foregroundColor(Color(.black))
-                    .padding(.horizontal, 10.0)
+                    .padding(.horizontal, 20.0)
                 Spacer()
                     .frame(height: 20.0)
                 Text(" To remove the pad, unstick it from your underwear and wrap it in toilet paper. Put it in the trash can or in the special disposal box that's found in most bathroom stalls. Don't try to flush a pad down the toilet because the toilet can become clogged and make a big mess.")
                     .font(.custom("Italiana-Regular", size: 17.0))
                         .fontWeight(.bold)
                         .foregroundColor(Color(.black))
-                        .padding(.horizontal, 10.0)
+                        .padding(.horizontal, 20.0)
 
             }
         }

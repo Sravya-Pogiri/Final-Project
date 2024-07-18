@@ -17,7 +17,7 @@ struct periodHome: View {
                         .font(.custom("Italiana-Regular", size: 35))
                     
                     Spacer()
-                        .frame(height: 85.0)
+                        .frame(height: 60.0)
                     NavigationLink(destination: productsTab()) {
                         Text("Products")
                             .font(.custom("Italiana-Regular", size: 25))
@@ -37,7 +37,7 @@ struct periodHome: View {
                     Spacer()
                         .frame(height: 20.0)
                     
-                    NavigationLink(destination: periodHome()) {
+                    NavigationLink(destination: tips()) {
                         Text("Tips")
                             .font(.custom("Italiana-Regular", size: 25))
                             .foregroundColor(.black)
@@ -75,7 +75,7 @@ struct periodHome: View {
                     Spacer()
                         .frame(height: 20.0)
                     
-                    NavigationLink(destination: periodHome()) {
+                    NavigationLink(destination: Pink_Tax()) {
                         Text("Pink Tax")
                             .font(.custom("Italiana-Regular", size: 25))
                             .foregroundColor(.black)
@@ -94,7 +94,7 @@ struct periodHome: View {
                     Spacer()
                         .frame(height: 20.0)
                     
-                    NavigationLink(destination: periodHome()) {
+                    NavigationLink(destination: periodTracking()) {
                         Text("Period Tracking")
                             .font(.custom("Italiana-Regular", size: 25))
                             .foregroundColor(.black)
@@ -109,6 +109,24 @@ struct periodHome: View {
                     .padding(.horizontal, 35)
                     .padding(.vertical, 5)
               
+                    Spacer()
+                        .frame(height: 20.0)
+
+                    
+                    NavigationLink(destination: periodHome()) {
+                        Text("Credits")
+                            .font(.custom("Italiana-Regular", size: 25))
+                            .foregroundColor(.black)
+                            .padding()
+                            .frame(maxWidth: .infinity)
+                            .cornerRadius(10)
+                        
+                    }
+                    .font(.body)
+                    .buttonStyle(.borderedProminent)
+                    .tint(Color(red: 1.0, green: 0.4, blue: 0.4))
+                    .padding(.horizontal, 35)
+                    .padding(.vertical, 5)
                 }
             }
         }
